@@ -53,7 +53,7 @@ Sinta-se a vontade para usar soluções diferentes e nos surpreender. O importan
 Seu projeto será avaliado de acordo com os seguintes critérios.
 
 1. Sua aplicação preenche os requerimentos básicos?
-1. Você documentou a maneira de configurar o ambiente e rodar sua aplicação?
+1. Você documentou a maneira de rodar sua aplicação?
 1. Você seguiu as instruções de envio do desafio?
 
 Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos e programação funcional, a partir da estrutura de seu projeto.

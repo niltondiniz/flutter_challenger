@@ -10,7 +10,7 @@ Para iniciar o desenvolvimento, favor criar um fork deste repositório para sua 
 
 Você deve criar um aplicativo que irá listar os repositórios públicos de um usuário buscado, usando a [API do GitHub](https://developer.github.com/v3/) para buscar os dados necessários.
 
-O aplicativo deve exibir inicialmente uma busca com o campo para inserir o nome do usuário e um botão que levará para a lista (uma dica: que tal se fosse paginada?) dos repositórios do usuário encontrado, ordenados por popularidade decrescente (exemplo de chamada da API: `https://api.github.com/users/<username_buscado>/repos`).
+O aplicativo deve exibir inicialmente uma busca com o campo para inserir o nome do usuário e um botão que levará para a lista dos repositórios do usuário encontrado, ordenados por popularidade decrescente (exemplo de chamada da API: `https://api.github.com/users/<username_buscado>/repos`).
 
 A tela com a lista de repositório deve exibir:
 * Nome
@@ -35,7 +35,7 @@ Você pode se basear neste mockup para criar as telas:
 
 Sua aplicação deve:
 
-- estar escrita em Java e/ou Kotlin (**Candidato Android**) / Objective C ou Swift (**Candidato iOS**)
+- estar escrita em Java e/ou Kotlin (**Candidato Android**) / Objective C ou Swift (**Candidato iOS**) / Javascript (**React Native**)
 - fazer mapeamento json -> Objeto
 - usar um arquivo .gitignore no seu repositório
 

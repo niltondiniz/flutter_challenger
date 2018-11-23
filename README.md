@@ -42,7 +42,7 @@ Sua aplicação deve:
 Você ganha mais pontos se:
 - possuir boa cobertura de testes unitários no projeto.
 - persistir os dados localmente (app funcionando offline)
-- criar testes funcionais
+- criar testes de de interface
 - fazer cache de imagens
 - suportar mudanças de orientação das telas sem perder estado
 

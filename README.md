@@ -31,7 +31,7 @@ Ao tocar no ícone para abrir no github, deve abrir no browser a página do repo
 
 Você pode se basear neste mockup para criar as telas:
 
-![mockup]()
+![mockup](https://gitlab.com/radix.recruit/mobile-challenger/raw/master/img.png)
 
 Sua aplicação deve:
 

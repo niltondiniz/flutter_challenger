@@ -35,7 +35,7 @@ Você pode se basear neste mockup para criar as telas:
 
 Sua aplicação deve:
 
-- estar escrita em Java e/ou Kotlin (**Candidato Android**) / Objective C ou Swift (**Candidato iOS**) / Javascript (**Candidato React Native**)
+- estar escrita em Java e/ou Kotlin (**Candidato Android**) / Objective C ou Swift (**Candidato iOS**) / Javascript (**Candidato React Native**) / Dart (**Candidato Flutter**)
 - fazer mapeamento json -> Objeto
 - usar um arquivo .gitignore no seu repositório
 

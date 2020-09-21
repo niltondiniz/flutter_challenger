@@ -16,14 +16,14 @@ todos os pacotes necessários ao projeto estão nas dependêndicas (pubspec.yaml
 
 O aplicativo aplicativo possui 5 telas
 
-1 SplashScreen, apresenta o logotipo do App
-2 Busca de Usuários, nesta tela o usuário informará os dados de busca de usuários
-3 Resultados da busca de usuários, esta tela mostra todos os usuários encontrados que possuem no seu login,
+1. SplashScreen, apresenta o logotipo do App
+2. Busca de Usuários, nesta tela o usuário informará os dados de busca de usuários
+3. Resultados da busca de usuários, esta tela mostra todos os usuários encontrados que possuem no seu login,
   o texto informado na tela de busca. Para acessar os repositórios, basta escolher um usuário da lista. 
   Nesta tela é possível exibir os usuários salvos localmente no dispositivo, para isso basta clicar no botão: Mostrar Salvos
-4 Repositórios, Esta tela mostra todos os repositórios do usuário selecionado, ordenados por popularidade  
+4. Repositórios, Esta tela mostra todos os repositórios do usuário selecionado, ordenados por popularidade  
   (stars). Para acessar os detalhes do repositório, basca escolher um item da lista de repositórios. Nesta tela é possivel gravar as informações localmente no dispositivo, para uma futura visualização dos dados (offline), para isso, basta pressionar o botão Salvar Local.
-5 Detalhes do Repositório, esta tela mostra os dados de um repositório, e possui um acesso (link), para a  
+5. Detalhes do Repositório, esta tela mostra os dados de um repositório, e possui um acesso (link), para a  
   página do respectivo repositório no site do GitHub.
 
 ### Arquitetura utilizada no App

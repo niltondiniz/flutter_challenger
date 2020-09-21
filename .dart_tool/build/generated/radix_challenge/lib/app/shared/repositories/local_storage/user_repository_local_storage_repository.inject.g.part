@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $UserLocalStorageRepository = BindInject(
+  (i) => UserLocalStorageRepository(),
+  singleton: true,
+  lazy: true,
+);

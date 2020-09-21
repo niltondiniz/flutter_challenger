@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $RepoApiRepository = BindInject(
+  (i) => RepoApiRepository(i<Dio>()),
+  singleton: true,
+  lazy: true,
+);

@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $HomeController = BindInject(
+  (i) => HomeController(i<RepoApiRepository>()),
+  singleton: true,
+  lazy: true,
+);

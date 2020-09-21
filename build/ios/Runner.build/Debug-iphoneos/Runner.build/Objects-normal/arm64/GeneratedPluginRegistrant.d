@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Flutter/Flutter.framework/Headers/Flutter.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/flutter_statusbarcolor/flutter_statusbarcolor.framework/Headers/FlutterStatusbarcolorPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/flutter_statusbarcolor/flutter_statusbarcolor.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/flutter_statusbarcolor/flutter_statusbarcolor.framework/Headers/flutter_statusbarcolor-umbrella.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Headers/FLTPathProviderPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Headers/path_provider-umbrella.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/SqflitePlugin.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/SqfliteOperation.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/sqflite-umbrella.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Headers/FLTURLLauncherPlugin.h \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Modules/module.modulemap \
+  /Users/niltondiniz/Projects/Flutter/mobile-challenger/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Headers/url_launcher-umbrella.h

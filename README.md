@@ -1,59 +1,43 @@
 # Desafio desenvolvimento mobile
 
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de desenvolvimento mobile.
+## Documentação do desafio realizado
 
-## Instruções de entrega do desafio
+O aplicativo foi desenvolvido em Flutter na versão stable 1.20.4,
+todos os pacotes necessários ao projeto estão nas dependêndicas (pubspec.yaml).
 
-Para iniciar o desenvolvimento, favor criar um fork deste repositório para sua conta pessoal. Essa será a versão utilizada para sua avaliação, portanto não esqueça de dar a permissão com role Reporter ao usuário da radix (radix.recruit) ao repositório recém criado.
+### Passos para executar a aplicação
 
-## Descrição do projeto
+1 Faça um clone do repositório
+2 rode o comando flutter pub get no terminal (na raiz da aplicação)
+3 Escolha seu emulador ou device
+4 Pressione F5
 
-Você deve criar um aplicativo que irá listar os repositórios públicos de um usuário buscado, usando a [API do GitHub](https://developer.github.com/v3/) para buscar os dados necessários.
+### Como utilizar
 
-O aplicativo deve exibir inicialmente uma busca com o campo para inserir o nome do usuário e um botão que levará para a lista dos repositórios do usuário encontrado, ordenados por popularidade decrescente (exemplo de chamada da API: `https://api.github.com/users/<username_buscado>/repos`).
+O aplicativo aplicativo possui 5 telas
 
-A tela com a lista de repositório deve exibir:
-* Nome
-* Avatar do usuário
-* Lista de repositórios
-* Cada repositório da lista deve exibir Nome do repositório, Descrição truncada
+1 SplashScreen, apresenta o logotipo do App
+2 Busca de Usuários, nesta tela o usuário informará os dados de busca de usuários
+3 Resultados da busca de usuários, esta tela mostra todos os usuários encontrados que possuem no seu login,
+  o texto informado na tela de busca. Para acessar os repositórios, basta escolher um usuário da lista. 
+  Nesta tela é possível exibir os usuários salvos localmente no dispositivo, para isso basta clicar no botão: Mostrar Salvos
+4 Repositórios, Esta tela mostra todos os repositórios do usuário selecionado, ordenados por popularidade  
+  (stars). Para acessar os detalhes do repositório, basca escolher um item da lista de repositórios. Nesta tela é possivel gravar as informações localmente no dispositivo, para uma futura visualização dos dados (offline), para isso, basta pressionar o botão Salvar Local.
+5 Detalhes do Repositório, esta tela mostra os dados de um repositório, e possui um acesso (link), para a  
+  página do respectivo repositório no site do GitHub.
 
-Ao clicar em um repositório, o mesmo deve levar para uma tela com:
+### Arquitetura utilizada no App
 
-* Nome do Repositório
-* Descrição completa
-* Número de Stars
-* Número de Forks
-* Número de issues abertas e fechadas
-* Data de criação do repositório
+A arquitetura utilizada no app é o MVC, e foram utilizados alguns padrões de projeto (de forma bem simples), para auxiliar no desenvolvimento do app.
+* Repository, utilizado nas consultas a API e Banco de Dados Local.
+* Strategy, utilizado nos momentos de consulta onde foi necessário usar o RepositorioAPI ou o 
+  RepositorioLocalStorage.
 
-Ao tocar no ícone para abrir no github, deve abrir no browser a página do repositório em questão.
+### Recursos
 
-Você pode se basear neste mockup para criar as telas:
+Os seguinte recursos estão presentes no App
+* Cache de Imagem
+* Testes unitários
+* Armazenamento de dados Locais
+* Gerenciamento de Estados com otimização de renderização de tela, prevenindo a perda de estado ao mudar a orientação da tela
 
-![mockup](https://gitlab.com/radix.recruit/mobile-challenger/raw/master/img.png)
-
-Sua aplicação deve:
-
-- estar escrita em Java e/ou Kotlin (**Candidato Android**) / Objective C ou Swift (**Candidato iOS**) / Javascript (**Candidato React Native**) / Dart (**Candidato Flutter**)
-- fazer mapeamento json -> Objeto
-- usar um arquivo .gitignore no seu repositório
-
-Você ganha mais pontos se:
-- possuir boa cobertura de testes unitários no projeto.
-- persistir os dados localmente (app funcionando offline)
-- criar testes de de interface
-- fazer cache de imagens
-- suportar mudanças de orientação das telas sem perder estado
-
-Sinta-se a vontade para usar soluções diferentes e nos surpreender. O importante de fato é que os objetivos macros sejam atingidos.
-
-## Avaliação
-
-Seu projeto será avaliado de acordo com os seguintes critérios.
-
-1. Sua aplicação preenche os requerimentos básicos?
-1. Você documentou a maneira de rodar sua aplicação?
-1. Você seguiu as instruções de envio do desafio?
-
-Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos e programação funcional, a partir da estrutura de seu projeto.

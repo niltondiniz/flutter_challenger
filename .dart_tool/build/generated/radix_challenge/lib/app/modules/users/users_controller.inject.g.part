@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $UsersController = BindInject(
+  (i) => UsersController(),
+  singleton: true,
+  lazy: true,
+);

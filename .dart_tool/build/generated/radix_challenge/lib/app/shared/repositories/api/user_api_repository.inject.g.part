@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $UserApiRepository = BindInject(
+  (i) => UserApiRepository(i<Dio>()),
+  singleton: true,
+  lazy: true,
+);

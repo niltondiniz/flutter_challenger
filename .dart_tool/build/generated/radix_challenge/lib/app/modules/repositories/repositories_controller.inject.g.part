@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $RepositoriesController = BindInject(
+  (i) => RepositoriesController(),
+  singleton: true,
+  lazy: true,
+);

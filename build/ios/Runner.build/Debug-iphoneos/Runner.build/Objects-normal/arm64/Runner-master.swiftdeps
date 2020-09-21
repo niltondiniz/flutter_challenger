@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "92046f66b0243d8f11a88f36945c6294"
+build_time: [1600691182, 921497000]
+inputs:
+  "/Users/niltondiniz/Projects/Flutter/mobile-challenger/ios/Runner/AppDelegate.swift": [1597187872, 951880097]

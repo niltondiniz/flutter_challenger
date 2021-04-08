@@ -50,7 +50,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
                     width: width,
                   ),
                   AvatarNetwork(
-                    url: "http://niltondiniz.com/images/spinner_2.jpg",
+                    url: "https://niltondiniz.com/images/spinner_2.jpg",
                     height: height,
                     width: width,
                   ),
